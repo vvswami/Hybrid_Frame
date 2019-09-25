@@ -14,12 +14,18 @@ public class TestTest {
  @Test
  public void login()
  {
-	 
-	 System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","D:\\Testing Software\\Vishnu Sir_Selenium\\chromedriver.exe");
+		
+		//System.setProperty("webdriver.chrome.driver","D:\\new Testing code\\new selenium code\\chromedriver.exe");
+		
+		//WebDriver driver=  new ChromeDriver();
+	// System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver.exe");
 	 WebDriver driver=new ChromeDriver();
 	 driver.manage().window().maximize();
 	 driver.get("https://google.com");
-	 driver.quit();
+	 System.out.println("open");
+	 
+	// driver.quit();
  }
  
 }
