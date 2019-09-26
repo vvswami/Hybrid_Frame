@@ -25,7 +25,7 @@ public class TestTest {
 	 driver.get("https://google.com");
 	 System.out.println("open");
 	 
-	// driver.quit();
+	 driver.quit();
  }
  
 }
